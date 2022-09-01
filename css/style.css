@@ -76,7 +76,7 @@ header .container .header-links .rightSide ul .img {
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
-  background: url("/img/head.jpg");
+  background: url("../img/head.jpg");
   display: inline-block;
   margin-right: -0.8rem;
   background-position: center;
