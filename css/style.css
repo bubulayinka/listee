@@ -258,7 +258,7 @@ header .container .header-links .burger-list {
 .work .work-img .img6 {
   max-width: 300px;
   height: 400px;
-  background: url("/img/six.jpg");
+  background: url("../img/six.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,7 +368,7 @@ header .container .header-links .burger-list {
 .browse .container .browse-img .browse-cont .browse-cont-img3 {
   width: 100%;
   height: 300px;
-  background: url("/img/one.jpg");
+  background: url("../img/one.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
