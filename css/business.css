@@ -1,0 +1,21 @@
+.business p {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.business p span {
+  font-weight: bolder;
+}
+.business .container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.business .container .swiper {
+  width: 1000%;
+  height: 100%;
+}
+.business .container .swiper .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}

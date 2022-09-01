@@ -1,0 +1,42 @@
+.hero {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.hero h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.hero p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.hero .hero-box {
+  display: flex;
+  background: red;
+  margin-top: 2rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .hero-box .hero-box1 {
+  display: flex;
+}
+.hero .hero-box .hero-box1 i {
+  font-size: 2rem;
+}
+.hero .hero-box .hero-box2 {
+  display: flex;
+}
+.hero .hero-box .hero-box2 i {
+  font-size: 2rem;
+}
+.hero .hero-box .hero-box3 {
+  display: flex;
+}
+.hero .hero-box .hero-box3 i {
+  font-size: 2rem;
+}

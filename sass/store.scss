@@ -1,0 +1,358 @@
+.listing{
+    padding: 0rem 2rem;
+    h2{
+        max-width: 250px;
+        font-size: 2rem;
+        padding: .1rem 0;
+        border-bottom: 3px solid $logoColor;
+        margin-bottom: .5rem;
+    }
+    .lis{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        p{
+            max-width: 650px;
+            line-height: 1.3rem;
+            font-size: 1rem;
+            color: $lightBlack;
+            text-align: left;
+        }
+        button{
+            background: $buttonBg;
+            
+            padding: .5rem 1.5rem;
+            border-radius: .5rem;
+            border: none;
+            color: white;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+    }
+    .store{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: .5rem;
+        row-gap: .5rem;
+        .store-item{
+            .store-item-img2{
+                width: 100%;
+                height: 200px;
+                background: url('/img/two.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+            .store-item-img3{
+                width: 100%;
+                height: 200px;
+                background: url('/img/three.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+            .store-item-img4{
+                width: 100%;
+                height: 200px;
+                background: url('/img/four.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+            .store-item-img5{
+                width: 100%;
+                height: 200px;
+                background: url('/img/five.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+            .store-item-img6{
+                width: 100%;
+                height: 200px;
+                background: url('/img/six.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+
+
+            .store-item-img2{
+                width: 100%;
+                height: 200px;
+                background: url('/img/two.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+            .store-item-img{
+                width: 100%;
+                height: 200px;
+                background: url('/img/one.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                .bu{
+                    position: absolute;
+                    padding: 1rem;
+                    width: 100%;
+                    bottom: 1rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .fir{
+                        padding: .5rem 1rem;
+                        border: none;
+                        background: $logoColor;
+                        color: white;
+                        border-radius: .3rem;
+                        text-transform: capitalize;
+                    }
+                    .sec{
+                        padding: .2rem .5rem;
+                        border: none;
+                        color: $logoColor;
+                        border-radius: .3rem;
+                        background: white;
+                    }
+                }
+            }
+
+            .store-text{
+                background: white;
+               padding-bottom: 1rem;
+                box-shadow: 1px 0px 20px rgba(0,0,0,0.5);
+                .first{
+                    width: 100% !important;
+                    display: flex !important;
+                    padding: 1rem 0rem !important;
+                    justify-content: space-between !important;
+                    align-items: center !important;
+                    padding: .5rem 1rem !important;
+                    h3{
+                        font-size: .8rem !important;
+                        font-weight: bold !important;
+                        text-transform: capitalize !important;
+                    }
+                    p{
+                        font-size: .6rem !important;
+                        color: $logoColor !important;
+                    }
+                }
+                .pp{
+                    padding: .5rem 1rem !important;
+                    p{
+                        font-size: .8rem;
+                        margin-bottom: .5rem;
+                        width: 100%;
+                        i{
+                            color: $logoColor;
+                            margin-right: .5rem;
+                        }
+                    }
+                }
+                .button-box{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: .5rem;
+                    align-items: center;
+                    padding: .5rem 1rem;
+                    background: linear-gradient(to right, #d0d0d0,#f1f2f1);
+                    .im-text{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        .im-text-img{
+                            height: 2rem;
+                            width: 2rem;
+                            background: url('/img/five.jpg');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            border-radius: 50%;
+                            margin-right: .5rem;
+                        }
+                       .im{
+                        h3{
+                            font-size: .8rem;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            font-size: .6rem;
+                            margin-top: .3rem;
+                        }
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

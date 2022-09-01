@@ -1,0 +1,126 @@
+footer{
+    background: rgb(68, 68, 68);
+    padding: 2rem;
+    margin-top: 2rem;
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .ceds{
+            h2{
+                font-size: 1.5rem;
+                color: $deepBlack;
+                font-weight: 700;
+                color: white;
+                text-transform: capitalize;
+                i{
+                    font-size: 1.5rem;
+                    color: $logoColor;
+                }
+            }
+            .log-min{
+                margin: 1rem 0rem;
+                display: flex;
+                p{
+                    font-size: .8rem;
+                    padding-left: .5rem;
+                    padding-right: .5rem;
+                    border-right: 1px solid white;
+                    text-transform: capitalize;
+                    opacity: .7;
+                    color: white;
+                }
+                .cont{
+                    border: none;
+                }
+            }
+        }
+        .ceds2{
+            .ced{
+                .ced-img{
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    border-radius: 50%;
+                    background: rgb(40, 40, 40);
+                    margin-right: .5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+                color: white;
+                p{
+                    a{
+                        text-decoration: none;
+                        color: $logoColor;
+                    }
+                }
+            }
+        }
+        .ceds3{
+            h2{
+                font-size: 1.5rem;
+                color: white;
+                font-weight: bold;
+            }
+            p{
+                font-size: 1rem;
+                margin: .5rem 0;
+                opacity: .5;
+                color: white;
+                line-height: 1.3rem;
+            }
+            .social{
+                display: flex;
+                align-items: center;
+                margin-top: 1rem;
+                .fac{
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    background: rgb(40, 40, 40);
+                    margin-right: .5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    margin-right: .5rem;
+                }
+                .twi{
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    background: rgb(40, 40, 40);
+                    margin-right: .5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    margin-right: .5rem;
+                }
+                .lin{
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    background: rgb(40, 40, 40);
+                    margin-right: .5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    margin-right: .5rem;
+                }
+                .git{
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    background: rgb(40, 40, 40);
+                    margin-right: .5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    margin-right: .5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.deal{
+    background: url('/img/five.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0rem;
+    background-color: rgba(0,0,0,.4);
+    .deal-text{
+        h2{
+            font-size: 2rem;
+            text-transform: capitalize;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 1rem;
+            span{
+                color: $logoColor;
+            }
+        }
+
+        button{
+            border: none;
+            padding: .5rem 2rem;
+            font-weight: bold;
+            font-size: 1rem;
+            color: white;
+            background: $buttonBg;
+            border-radius: 1rem;
+        }
+       
+    }
+    .deal-imgs{
+        display: flex;
+        position: relative;
+        
+        .deal-img{
+            border: 10px solid white;
+            border-radius: 1rem;
+            position: relative;
+            right: -6rem;
+            z-index: 999;
+            transform: rotate(5deg);
+            .img{
+                width: 250px;
+                height: 250px;
+                background: url(/img/one.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .img-text{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: white;
+                padding: .5rem;
+                p{
+                    font-size: .8rem;
+                    text-transform: capitalize;
+                    opacity: .6;
+                    .bx-mobile-landscape{
+                        color: $logoColor;
+                        margin-right: .1rem;
+                    }
+                    .bxs-heart{
+                        color: $buttonBg;
+                        margin-right: .1rem;
+                    }
+                }
+            }
+        }
+        .deal-img2{
+            
+            border: 10px solid white;
+            border-radius: 1rem;
+
+            .img{
+                width: 250px;
+                height: 250px;
+                background: url(/img/two.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .img-text{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: white;
+                padding: .5rem;
+                p{
+                    font-size: .8rem;
+                    text-transform: capitalize;
+                    opacity: .6;
+                    .bx-mobile-landscape{
+                        color: $logoColor;
+                        margin-right: .1rem;
+                    }
+                    .bxs-heart{
+                        color: $buttonBg;
+                        margin-right: .1rem;
+                    }
+                }
+            }
+        }
+    }
+}

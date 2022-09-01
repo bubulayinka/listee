@@ -1,0 +1,13 @@
+.browse {
+  margin: 4rem 0rem;
+  background: linear-gradient(to right, #d0d0d0, #f1f2f1);
+  padding: 2rem;
+}
+.browse .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.browse .container .browse-text {
+  width: 40%;
+}

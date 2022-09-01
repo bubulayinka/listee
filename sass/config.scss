@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$logoColor: #eb5237;
+$deepBlack: #09153c;
+$lightBlack: #1c1c1c;
+$hoverColor: #dc90a3;
+$hoverBg: #fee1e8;
+$buttonBg: #ee1b47;
+h1, h2, h3, h4, h5, h6{
+    color: $deepBlack;
+}
+@mixin media-md {
+    @media screen and (max-width:900px){
+        @content;
+    }
+}
+@mixin media-sm {
+    @media screen and (max-width:700px){
+        @content;
+    }
+}

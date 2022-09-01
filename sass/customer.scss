@@ -1,0 +1,19 @@
+.customer{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: 2rem;
+        font-weight: bold;
+        border-bottom: 3px solid $logoColor;
+        max-width: 300px;
+    }
+    .cus-icon{
+        padding: .5rem 1rem;
+        
+        .bx-chevron-right{
+            background: $buttonBg;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.deal {
+  background: url("/img/five.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.deal .deal-text h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+}
